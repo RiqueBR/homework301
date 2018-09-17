@@ -56,6 +56,8 @@ INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 20
 
 9. The cinema would also like to make the Guardian movies a back-to-back feature. Update the 'Guardians of the Galaxy 2' show time from 14:45 to 18:00
 
+UPDATE movies SET show_time = '18:00' WHERE title = 'Guardians of the Galaxy 2';
+
 ## Extension
 
 1. Research how to delete multiple entries from your table in a single command.
